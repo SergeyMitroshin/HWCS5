@@ -3,6 +3,7 @@
 Напишите программу, которая покажет количество чётных чисел в массиве.
 [345, 897, 568, 234] -> 2
 */
+
 int[] GetFillArray(int arrayLen, int arrMin, int arrMax)
 {
     int [] resultArray = new int [arrayLen];
@@ -22,6 +23,6 @@ int GetHonestCount (int[]arg)
 
 Console.WriteLine("Введите размер массива");
 int arrayLenght = int.Parse(Console.ReadLine());
-int [] array = GetFillArray(arrayLenght,0,999);
+int [] array = GetFillArray(arrayLenght,100,999);
 Console.WriteLine(String.Join(", ", array));
-Console.WriteLine(GetHonestCount(array));
+Console.WriteLine("-> "+GetHonestCount(array));
