@@ -33,6 +33,6 @@ double FindMin (double[]arg)
 
 Console.WriteLine("Введите размер массива");
 int arrayLenght = int.Parse(Console.ReadLine());
-double [] array = GetFillArray(arrayLenght,-99, 100);
+double [] array = GetFillArray(arrayLenght,-99, 100);  //диапазон задан условно для удобства проверки
 Console.WriteLine(String.Join(", ", array));
 Console.WriteLine("-> "+(FindMax(array)-FindMin(array)));

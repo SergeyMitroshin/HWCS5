@@ -24,6 +24,6 @@ int GetNotHonest (int[]arg)
 
 Console.WriteLine("Введите размер массива");
 int arrayLenght = int.Parse(Console.ReadLine());
-int [] array = GetFillArray(arrayLenght,-99,100);
+int [] array = GetFillArray(arrayLenght,-99,100); 
 Console.WriteLine(String.Join(", ", array));
 Console.WriteLine("-> "+GetNotHonest(array));

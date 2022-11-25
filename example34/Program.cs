@@ -23,6 +23,6 @@ int GetHonestCount (int[]arg)
 
 Console.WriteLine("Введите размер массива");
 int arrayLenght = int.Parse(Console.ReadLine());
-int [] array = GetFillArray(arrayLenght,100,999);
+int [] array = GetFillArray(arrayLenght,100,1000);
 Console.WriteLine(String.Join(", ", array));
 Console.WriteLine("-> "+GetHonestCount(array));
